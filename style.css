@@ -215,3 +215,49 @@ header nav {
   list-style-image: url("./assets/CheckCircle.png");
   align-items: center;
 }
+
+.early-access-section {
+  margin-top: 120px;
+  padding: 80px 40px;
+  border-radius: 12px;
+  background: #f7f6f2;
+  margin-bottom: 120px;
+}
+
+.early-access-section .early-access-content {
+  text-align: center;
+}
+
+.early-access-section .early-access-content h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.early-access-section .early-access-content p {
+  color: #627382;
+}
+
+.early-access-section .early-access-content .early-access-btn {
+  border-radius: 4px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 24px;
+}
+
+.early-access-section .early-access-content .early-access-list {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.early-access-list ul {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  color: #627382;
+}
+
+.early-access-list ul .early-access-without-bullet-list {
+  list-style: none;
+  margin-right: 25px;
+}
