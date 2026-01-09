@@ -120,7 +120,7 @@ header nav {
 }
 
 .note-card-container {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,5 +163,55 @@ header nav {
 }
 
 .Second-Brain {
+  width: 100%;
+  max-width: 1360px;
   display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.Second-Brain .Second-Brain-img {
+  max-width: 600px;
+}
+
+.Second-Brain .Second-Brain-img img {
+  width: 100%;
+}
+
+.Second-Brain .Second-Brain-content {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 90px;
+}
+
+.Second-Brain .Second-Brain-content h3 {
+  color: #469165;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.Second-Brain .Second-Brain-content h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.Second-Brain .Second-Brain-content p {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 40px;
+  padding-right: 230px;
+}
+
+.Second-Brain .Second-Brain-content .second-brain-list {
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 25px;
+}
+
+.Second-Brain .Second-Brain-content .second-brain-list li {
+  list-style-image: url("./assets/CheckCircle.png");
+  align-items: center;
 }
